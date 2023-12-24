@@ -1,0 +1,62 @@
+#sort {
+	width: 90%;
+	background-color: white;
+	font-size: 22px;
+	border-radius: 15px;
+	padding: 1px 0px;
+	height: 70px;
+	margin: 0px auto -35px auto;
+}
+#sort > div {
+	/*background-color: lightcoral;*/
+	text-align: center;
+}
+
+#surname, #date_original, #date_library, #reverse {
+	display: none;
+}
+#label_for_surname, #label_for_date_original,
+#label_for_date_library, #label_for_reverse {
+	transform: translate(0%, -25%);
+	display: inline-block;
+	/*background-color: lightpink;*/
+	width: 215px;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	line-height: 2;
+	text-align: center;
+	margin-left: 10px;
+}
+#label_for_surname {
+	margin-left: 127px;
+	/*margin-left: 5%;*/
+}
+#label_for_reverse {
+	line-height: 1;
+	width: 50px;
+	transform: translate(0%, -8.5%);
+}
+#label_for_reverse::after {
+	content: "\f021";
+	font-family: FontAwesome;
+	color: black;
+	font-size: 32px;
+}
+#surname:checked ~ #label_for_surname,
+#date_original:checked ~ #label_for_date_original,
+#date_library:checked ~ #label_for_date_library {
+	color: #EA0003;
+	outline: #EA0003 solid 2px;
+}
+#reverse:checked ~ #label_for_reverse::after {
+	color: #EA0003;
+}
+#surname:active ~ #label_for_surname,
+#date_original:active ~ #label_for_date_original,
+#date_library:active ~ #label_for_date_library,
+#reverse:active ~ #label_for_reverse {
+	outline: #EA0003 solid 2px;
+}
+#core > input:checked ~ #reverse:checked ~ #amount_of_blocks {
+	flex-direction: column-reverse;
+}

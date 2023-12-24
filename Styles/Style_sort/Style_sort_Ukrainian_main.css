@@ -1,0 +1,43 @@
+#date_original:checked ~ #amount_of_blocks > section:nth-child(1) {
+	order: 3;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(2) {
+	order: 7;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(3) {
+	order: 6;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(4) {
+	order: 2;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(5) {
+	order: 1;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(6) {
+	order: 4;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(7) {
+	order: 5;
+}
+
+#date_library:checked ~ #amount_of_blocks > section:nth-child(1) {
+	order: 6;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(2) {
+	order: 4;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(3) {
+	order: 1;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(4) {
+	order: 2;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(5) {
+	order: 7;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(6) {
+	order: 3;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(7) {
+	order: 5;
+}

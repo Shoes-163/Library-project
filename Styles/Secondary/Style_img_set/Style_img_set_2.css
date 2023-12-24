@@ -1,0 +1,22 @@
+.images_in_left {
+	display: flex;
+	transition: background-color 0.2s ease-out;
+	/*background-color: burlywood;*/
+}
+.images_in_left > div {
+	/*background-color: chocolate;*/
+	width: 50%;
+	height: 100%;
+	transition: transform 0.2s ease-out;
+}
+.images_in_left img {
+	width: 100%;
+	height: 100%;
+}
+
+.big_matter:hover > .matter > .images_in_left {
+	background-color: #EA0003;
+}
+.big_matter:hover > .matter > .images_in_left > div {
+	transform: translateX(-8px);
+}

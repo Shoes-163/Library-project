@@ -1,0 +1,19 @@
+#label_for_surname, #label_for_date_original,
+#label_for_date_library, #label_for_reverse {
+	transform: translate(0%, -31%);
+	width: 35%;
+	margin-bottom: 2px;
+}
+#label_for_surname, #label_for_date_library {
+	margin-left: 10%;
+}
+#label_for_date_original, #label_for_reverse {
+	margin-left: 9.5%;
+}
+#label_for_reverse {
+	transform: translate(0%, -14%);
+}
+#sort {
+	height: 110px;
+	margin-bottom: -67px;
+}

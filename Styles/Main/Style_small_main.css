@@ -1,0 +1,76 @@
+@keyframes share_social {
+	from {
+		transform: scale(0, 0);
+	}
+	to {
+		transform: scale(1, 1);
+	}
+}
+
+#main_home {
+	padding: 0px 5px;
+}
+#main_icon > img {
+	width: 44px;
+	height: 44px;
+}
+#main_text {
+	display: none;
+}
+#main_text_little {
+	display: flex;
+}
+
+#change_lang {
+	width: 50px;
+}
+#label_of_list_of_languages {
+	display: block;
+}
+#block_of_languages {
+	transform: translateY(-35px);
+}
+#block_of_languages > input:checked + label {
+	color: rgba(255, 255, 255, 0);
+}
+#lang_UA:checked ~ #UA,
+#lang_EN:checked ~ #EN,
+#lang_RU:checked ~ #RU {
+	display: block;
+}
+#block_of_languages > label:not(.lang_now) {
+	order: 3;
+	width: 100%;
+}
+
+#social {
+	flex-wrap: wrap;
+	width: 50px;
+	padding: 0px;
+}
+#show_social_logos:checked ~ #block_of_social_logos {
+	height: 50px;
+}
+#show_social_logos:checked ~ #main_social_logo::after {
+	content: "\f00d";
+	animation: share_social 0.2s ease-out 0s 1 normal forwards;
+}
+#main_social_logo {
+	width: 100%;
+	cursor: pointer;
+	margin: 0px;
+}
+#block_of_social_logos {
+	height: 0px;
+	/*background-color: #F2F2F2;*/
+	background-color: #EDEDED;
+	transform: translateX(-100px);
+}
+
+footer > a, footer > div {
+	margin: 0px 5px;
+	width: 100%;
+}
+footer > a, footer > div:not(:last-of-type) {
+	margin-bottom: 7px;
+}

@@ -1,0 +1,19 @@
+#image_in_left, #collection #image_in_left, .images_in_left {
+	width: 100%;
+}
+#collection #image_in_left {
+	height: 200px;
+}
+#exposition, #collection #exposition {
+	width: 100%;
+}
+.line_of_exposition > div:first-of-type {
+	/*margin-right: 5%;*/
+	width: 40%;
+}
+.line_of_exposition > div:last-of-type {
+	width: 55%;
+}
+#button_of_dream {
+	width: 90%;
+}

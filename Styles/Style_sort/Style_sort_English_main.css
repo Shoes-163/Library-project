@@ -1,0 +1,89 @@
+.block {
+	display: none;
+}
+
+#date_original:checked ~ #amount_of_blocks > section:nth-child(2) {
+	order: 1;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(7) {
+	order: 2;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(3) {
+	order: 3;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(5) {
+	order: 4;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(6) {
+	order: 5;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(8) {
+	order: 6;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(1) {
+	order: 7;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(11) {
+	order: 8;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(13) {
+	order: 9;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(12) {
+	order: 10;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(9) {
+	order: 11;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(4) {
+	order: 12;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(10) {
+	order: 13;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(14) {
+	order: 14;
+}
+
+#date_library:checked ~ #amount_of_blocks > section:nth-child(2) {
+	order: 1;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(5) {
+	order: 2;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(6) {
+	order: 3;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(12) {
+	order: 4;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(13) {
+	order: 5;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(3) {
+	order: 6;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(1) {
+	order: 7;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(7) {
+	order: 8;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(8) {
+	order: 9;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(11) {
+	order: 10;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(14) {
+	order: 11;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(4) {
+	order: 12;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(9) {
+	order: 13;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(10) {
+	order: 14;
+}

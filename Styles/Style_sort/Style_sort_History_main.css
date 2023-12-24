@@ -1,0 +1,65 @@
+.block {
+	display: none;
+}
+
+#date_original:checked ~ #amount_of_blocks > section:nth-child(1) {
+	order: 3;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(2) {
+	order: 4;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(3) {
+	order: 2;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(4) {
+	order: 6;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(5) {
+	order: 5;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(6) {
+	order: 1;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(7) {
+	order: 8;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(8) {
+	order: 9;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(9) {
+	order: 7;
+}
+#date_original:checked ~ #amount_of_blocks > section:nth-child(10) {
+	order: 10;
+}
+
+#date_library:checked ~ #amount_of_blocks > section:nth-child(1) {
+	order: 3;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(2) {
+	order: 4;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(3) {
+	order: 5;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(4) {
+	order: 6;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(5) {
+	order: 7;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(6) {
+	order: 8;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(7) {
+	order: 9;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(8) {
+	order: 10;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(9) {
+	order: 1;
+}
+#date_library:checked ~ #amount_of_blocks > section:nth-child(10) {
+	order: 2;
+}

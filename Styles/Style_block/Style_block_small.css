@@ -1,0 +1,22 @@
+.title_in_small {
+	display: block;
+}
+.name {
+	display: none;
+}
+.book_in_left {
+	width: 34%;
+}
+.text_in_right {
+	width: 66%;
+}
+.genre_and_year {
+	flex-direction: column;
+}
+.genre_and_year > div:first-of-type {
+	margin-right: 0px;
+	
+}
+.genre_and_year > div:last-of-type {
+	text-align: left;
+}

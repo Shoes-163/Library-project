@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="Шевцов Денис"/>
+<meta name="description" content="Розділ «Теодор Фонтане. Шах фон Вутенов. Пути-Перепутья. Госпожа Женни Трайбель» в електронній бібліотеці ImEntwickeln"/>
+<title>«Im Entwickeln»: Електронна бібліотека Містера N. N.</title>
+<link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+<link rel="manifest" href="Images/site.webmanifest">
+<link href="Styles/Main/Style_main.css" rel="stylesheet" type="text/css"/>
+<link href="Styles/Secondary/Style_bookmark.css" rel="stylesheet" type="text/css"/>
+<link href="Styles/Secondary/Style_card&list.css" rel="stylesheet" type="text/css"/>
+<link href="Styles/Style_card/Style_card.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="Styles/Main/Style_medium_main.css" rel="stylesheet" media="screen and (max-width: 1023px)"/>
+<link href="Styles/Main/Style_small_main.css" rel="stylesheet" media="screen and (max-width: 767px)"/>
+<link href="Styles/Style_card/Style_card_small.css" rel="stylesheet" media="screen and (max-width: 767px)"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<a href="#content" id="skipcontent">Перейти до головного вмісту</a>
+
+<input type="checkbox" id="side_in_small">
+<label for="side_in_small" id="label_for_side" role="button" aria-label="Відкрити навігаційне меню" tabindex="0"></label>
+<input type="checkbox" id="search_in_small">
+<label for="search_in_small" id="label_for_search" role="button" aria-label="Відкрити меню пошуку" tabindex="0"></label>
+
+<header>
+<a id="main_home" href="#">
+<div id="main_icon"><img src="Images/Main_image.png"></div>
+<div id="main_text"><div id="main_title">ImEntwickeln</div>
+<div id="main_subtitle">Електронна бібліотека Містера N. N.</div></div>
+<div id="main_text_little"><div id="I">I.</div><div id="E">E.</div></div>
+</a>
+
+<div id="change_lang">
+<input type="checkbox" id="show_list_of_languages">
+<label for="show_list_of_languages" tabindex="0" id="label_of_list_of_languages" role="button" aria-label="Змінити мову сторінки"></label>
+<div id="block_of_languages">
+<input type="radio" name="lang" id="lang_UA" checked><label for="lang_UA">UA</label>
+<input type="radio" name="lang" id="lang_EN"><label for="lang_EN">EN</label>
+<input type="radio" name="lang" id="lang_RU"><label for="lang_RU">RU</label>
+<label for="show_list_of_languages" class="lang_now" id="UA">UA</label>
+<label for="show_list_of_languages" class="lang_now" id="EN">EN</label>
+<label for="show_list_of_languages" class="lang_now" id="RU">RU</label>
+</div>
+</div>
+
+<div id="social">
+<input type="checkbox" id="show_social_logos">
+<label for="show_social_logos" tabindex="0" id="main_social_logo" role="button" aria-label="Відкрити меню поділитися сторінкою"></label>
+<div id="block_of_social_logos">
+<div class="social_logo" tabindex="0" role="button" title="Поділитися сторінкою у Facebook"><img src="Images/facebook.png"></div>
+<div class="social_logo" tabindex="0" role="button" title="Поділитися сторінкою в X/Twitter"><img src="Images/x-social-media-round-icon.webp"></div>
+<div class="social_logo" tabindex="0" role="button" title="Поділитися сторінкою у Telegram"><img src="Images/telegram.png"></div>
+</div>
+</div>
+
+<form>
+<input type="search" placeholder="Пошук">
+<button type="submit" aria-label="Пошук"></button>
+</form>
+</header>
+
+<aside id="side">
+
+<section id="Bookmark_add">
+<input type="checkbox" id="settings">
+<label for="settings" id="label_for_settings" tabindex="0" role="button">Додати закладку</label>
+<form>
+<div></div><div></div>
+<div class="BST">Автор:</div>
+<div class="BSD">Теодор Фонтане</div>
+<div></div><div></div>
+<div class="BST">Робота:</div>
+<div class="BSD">Шах фон Вутенов. Пути-Перепутья. Госпожа Женни Трайбель</div>
+<div></div><div></div>
+<label for="your_note" class="BST">Нотатка:</label>
+<input type="text" maxlength="20" id="your_note"></input>
+<div></div><div></div>
+<button type="button" id="save_bookmark">Зберегти закладку</button>
+</form>
+</section>
+<div></div><div></div><hr><div></div><div></div>
+
+<div class="Bookmark bold">Ваші закладки:</div>
+<div class="Bookmark">Закладки відсутні</div>
+<div></div><div></div><hr><div></div><div></div>
+<nav>
+<a href="index.html">Тематичний каталог</a><div></div>
+<a href="List_divarication_colllection.html">Багатотомники</a><div></div>
+<a href="Periodicals.html">Періодичні видання</a><div></div>
+<a href="Periodicals.html">Про бібліотеку</a>
+<div></div><div></div><hr><div></div><div></div>
+</nav>
+
+<input type="radio" name="radio" id="fi" checked><label for="fi" tabindex="0" role="button">Прізвище автора</label><div></div>
+<input type="radio" name="radio" id="se"><label for="se" tabindex="0" role="button">Період народження автора</label><div></div>
+<input type="radio" name="radio" id="th"><label for="th" tabindex="0" role="button">Рік написання роботи</label>
+<div></div>
+<input type="radio" name="radio" id="fo"><label for="fo" tabindex="0" role="button">Жанр худож. літератури</label>
+
+<div id="Letter">
+<a href="#" aria-describedby="fi">А</a><a href="#" aria-describedby="fi">Б</a>
+<a href="#" aria-describedby="fi">В</a><a href="#" aria-describedby="fi">Г</a>
+<a href="#" aria-describedby="fi">Д</a><a href="#" aria-describedby="fi">Е</a>
+<a href="#" aria-describedby="fi">Є</a><a href="#" aria-describedby="fi">Ж</a>
+<a href="#" aria-describedby="fi">З</a><a href="#" aria-describedby="fi">І</a>
+<a href="#" aria-describedby="fi">Й</a><a href="#" aria-describedby="fi">К</a>
+<a href="#" aria-describedby="fi">Л</a><a href="#" aria-describedby="fi">М</a>
+<a href="#" aria-describedby="fi">Н</a><a href="#" aria-describedby="fi">О</a>
+<a href="#" aria-describedby="fi">П</a><a href="#" aria-describedby="fi">Р</a>
+<a href="#" aria-describedby="fi">С</a><a href="Letter_T.html" aria-describedby="fi">Т</a>
+<a href="#" aria-describedby="fi">У</a><a href="#" aria-describedby="fi">Ф</a>
+<a href="#" aria-describedby="fi">Х</a><a href="#" aria-describedby="fi">Ц</a>
+<a href="#" aria-describedby="fi">Ч</a><a href="#" aria-describedby="fi">Ш</a>
+<a href="#" aria-describedby="fi">Щ</a><a href="#" aria-describedby="fi">Ю</a>
+<a href="#" aria-describedby="fi">Я</a>
+</div>
+
+<div id="Birthday">
+<a href="#" aria-describedby="se">До XIX ст.</a>
+<a href="#" aria-describedby="se">Пер. пол. XIX ст.</a>
+<a href="#" aria-describedby="se">Др. пол. XIX ст.</a>
+<a href="#" aria-describedby="se">Пер. пол. XX ст.</a>
+<a href="#" aria-describedby="se">Др. пол. XX ст.</a>
+</div>
+
+<div id="Year">
+<a href="#" aria-describedby="th">1897</a><a href="#" aria-describedby="th">1901</a>
+<a href="#" aria-describedby="th">1926</a><a href="#" aria-describedby="th">1937</a>
+<a href="#" aria-describedby="th">1938</a><a href="#" aria-describedby="th">1940</a>
+<a href="#" aria-describedby="th">1941</a><a href="#" aria-describedby="th">1965</a>
+<a href="#" aria-describedby="th">1967</a><a href="#" aria-describedby="th">1971</a>
+<a href="#" aria-describedby="th">1973</a><a href="#" aria-describedby="th">1977</a>
+<a href="#" aria-describedby="th">1981</a><a href="#" aria-describedby="th">1985</a>
+<a href="#" aria-describedby="th">1986</a><a href="#" aria-describedby="th">1987</a>
+<a href="#" aria-describedby="th">1988</a><a href="#" aria-describedby="th">1991</a>
+<a href="#" aria-describedby="th">2001</a><a href="#" aria-describedby="th">2003</a>
+<a href="#" aria-describedby="th">2004</a><a href="#" aria-describedby="th">2005</a>
+<a href="#" aria-describedby="th">2006</a><a href="#" aria-describedby="th">2007</a>
+<a href="#" aria-describedby="th">2008</a><a href="#" aria-describedby="th">2010</a>
+<a href="#" aria-describedby="th">2011</a><a href="#" aria-describedby="th">2012</a>
+<a href="#" aria-describedby="th">2013</a><a href="#" aria-describedby="th">2014</a>
+<a href="#" aria-describedby="th">2015</a>
+<a href="Year_2016.html" aria-describedby="th">2016</a>
+<a href="#" aria-describedby="th">2017</a><a href="#" aria-describedby="th">2018</a>
+<a href="#" aria-describedby="th">2019</a><a href="#" aria-describedby="th">2022</a>
+</div>
+
+<div id="Genre">
+<a href="#" aria-describedby="fo">Автобіографічний роман</a>
+<a href="#" aria-describedby="fo">Вірш</a><a href="#" aria-describedby="fo">Драма</a>
+<a href="#" aria-describedby="fo">Казка</a><a href="#" aria-describedby="fo">Мемуари</a>
+<a href="#" aria-describedby="fo">Новела</a><a href="#" aria-describedby="fo">Оповідання</a>
+<a href="#" aria-describedby="fo">Повість</a><a href="#" aria-describedby="fo">Поема</a>
+<a href="#" aria-describedby="fo">Роман</a>
+</div>
+
+</aside>
+
+<div id="black"></div>
+
+<main id="content">
+
+<article id="core">
+
+<div id="title"><a href="#">Теодор Фонтане</a><br>
+Шах фон Вутенов. Пути-Перепутья. Госпожа Женни Трайбель
+</div>
+
+<section id="face">
+
+<section id="image_in_left">
+<img src="Images/Artistic/fontane_schach_von_wuthenow_1971.jpg" alt="Теодор Фонтане. Шах фон Вутенов. Пути-Перепутья. Госпожа Женни Трайбель">
+</section>
+
+<section id="exposition">
+<div class="line_of_exposition">
+<div>Місце видання</div><div></div><div>Москва</div>
+</div>
+<div class="line_of_exposition">
+<div>Видання</div><div></div><div>Художня література</div>
+</div>
+<div class="line_of_exposition">
+<div>Рік видання</div><div></div><div>1971</div>
+</div>
+<div class="line_of_exposition">
+<div>Жанр</div><div></div><div>Романи</div>
+</div>
+<div class="line_of_exposition">
+<div>Кількість сторінок</div><div></div><div>468</div>
+</div>
+<div class="line_of_exposition">
+<div>Тематика</div><div></div><div>Literatur auf deutsch / Переклади з німецької</div>
+</div>
+<div class="line_of_exposition">
+<div>Дата надходження</div><div></div><div>2023-10-29</div>
+</div>
+</section>
+
+</section>
+
+<section id="description">
+Почти все произведения Фонтане посвящены в различных вариантах разрабатываемой теме, представляющей собой один из аспектов генеральной темы литературы критического реализма, конфликта личности и общества. В романах писателя изображаются светские люди, представители высших общественных сословий, в стремлении к личному счастью вступающие в столкновение с обычаями, традициями и нормами поведения своей среды, с мертвыми и фальшивыми, но тем более жестокими и деспотическими условностями света. 
+</section>
+
+<a href="#" id="button_of_dream">PDF : 32.8 MB</a>
+
+</article>
+
+</main>
+
+<footer>
+<a href="#">Вихідні дані та декларація про захист даних</a>
+<div>© ImEntwickeln, 2023</div>
+<div>imentwickeln@gmail.com</div>
+<div id="social_footer">
+<div id="we">Ми також є в:</div>
+<div id="block_of_social_logos_footer">
+<div class="social_logo_footer" tabindex="0" role="button" title="Наша сторінка у Facebook"><img src="Images/facebook_square.png"></div>
+<div class="social_logo_footer" tabindex="0" role="button" title="Наша сторінка в X/Twitter"><img src="Images/x-twitter.png"></div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+#matter {
+	/*margin: 20px 10px 0px 10px;*/
+	margin: 0px 10px -12px 10px;
+	/*background-color: mediumspringgreen;*/
+}
+#matter > a {
+	display: block;
+	font-size: 18px;
+	line-height: 1;
+	margin: 12px auto;
+	color: black;
+	text-decoration: none;
+	/*background-color: yellow;*/
+}
+#matter > a::before {
+	content: "\f0da";
+	font-family: FontAwesome;
+	color: black;
+	font-size: 18px;
+	margin-right: 6px;
+}
+#matter > a:hover {
+	text-decoration: underline;
+	background-color: #E0E0E0;
+}
+#matter > a:hover::before {
+	color: red;
+}
+#matter > a:active {
+	color: red;
+}

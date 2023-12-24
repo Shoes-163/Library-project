@@ -1,0 +1,10 @@
+#label_for_surname, #label_for_date_original,
+#label_for_date_library, #label_for_reverse {
+	width: 85%;
+	margin: 5px 7.5%;
+	transform: translate(0%, -25%);
+}
+#sort {
+	height: 200px;
+	margin-bottom: -163px;
+}

@@ -1,0 +1,7 @@
+.block_of_author {
+	width: 100%;
+	margin: 7px 10px;
+}
+.matter_of_author:hover > .portrait_in_left > img {
+	border: none;
+}

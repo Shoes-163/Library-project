@@ -1,0 +1,26 @@
+#core, #title_author, #collection {
+	max-width: 1000px;
+	margin: 0px auto;
+	background-color: white;
+	padding: 12px 0px;
+	border-radius: 5px;
+}
+#title_author, #collection {
+	margin-bottom: 15px;
+}
+#wrappage {
+	margin-bottom: 8px;
+}
+#wrappage > #title {
+	background-color: white;
+}
+#title {
+	text-align: center;
+	font-size: 24px;
+	line-height: 1.5;
+	border-radius: 15px;
+	border-bottom: 2px solid black;
+	box-shadow: 0px 4px 6px lightgrey;
+	margin: 0px 10px;
+	padding: 7px 0px;
+}

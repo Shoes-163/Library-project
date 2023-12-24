@@ -1,0 +1,15 @@
+.images_in_left {
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	/*background-color: burlywood;*/
+}
+.images_in_left > div {
+	/*background-color: chocolate;*/
+	width: 33.33%;
+	height: 50%;
+}
+.images_in_left img {
+	width: 100%;
+	height: 100%;
+}

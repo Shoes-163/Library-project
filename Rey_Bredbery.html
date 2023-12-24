@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="Шевцов Денис"/>
+<meta name="description" content="Розділ Рея Бредбері в електронній бібліотеці ImEntwickeln"/>
+<title>«Im Entwickeln»: Електронна бібліотека Містера N. N.</title>
+<link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+<link rel="manifest" href="Images/site.webmanifest">
+<link href="Styles/Main/Style_main.css" rel="stylesheet" type="text/css"/>
+<link href="Styles/Secondary/Style_card&list.css" rel="stylesheet" type="text/css"/>
+<link href="Styles/Secondary/Style_big_sort.css" rel="stylesheet" type="text/css"/>
+<link href="Styles/Style_card/Style_card.css" rel="stylesheet" type="text/css"/>
+<link href="Styles/Style_block/Style_block.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="Styles/Secondary/Style_sort.css" rel="stylesheet" media="screen and (max-width: 1284px)"/>
+<link href="Styles/Main/Style_medium_main.css" rel="stylesheet" media="screen and (max-width: 1023px)"/>
+<link href="Styles/Main/Style_small_main.css" rel="stylesheet" media="screen and (max-width: 767px)"/>
+<link href="Styles/Secondary/Style_small_sort.css" rel="stylesheet" media="screen and (max-width: 767px)"/>
+<link href="Styles/Style_card/Style_card_small.css" rel="stylesheet" media="screen and (max-width: 767px)"/>
+<link href="Styles/Style_block/Style_block_small.css" rel="stylesheet" media="screen and (max-width: 767px)"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<a href="#content" id="skipcontent">Перейти до головного вмісту</a>
+
+<input type="checkbox" id="side_in_small">
+<label for="side_in_small" id="label_for_side" role="button" aria-label="Відкрити навігаційне меню" tabindex="0"></label>
+<input type="checkbox" id="search_in_small">
+<label for="search_in_small" id="label_for_search" role="button" aria-label="Відкрити меню пошуку" tabindex="0"></label>
+
+<header>
+<a id="main_home" href="#">
+<div id="main_icon"><img src="Images/Main_image.png"></div>
+<div id="main_text"><div id="main_title">ImEntwickeln</div>
+<div id="main_subtitle">Електронна бібліотека Містера N. N.</div></div>
+<div id="main_text_little"><div id="I">I.</div><div id="E">E.</div></div>
+</a>
+
+<div id="change_lang">
+<input type="checkbox" id="show_list_of_languages">
+<label for="show_list_of_languages" tabindex="0" id="label_of_list_of_languages" role="button" aria-label="Змінити мову сторінки"></label>
+<div id="block_of_languages">
+<input type="radio" name="lang" id="lang_UA" checked><label for="lang_UA">UA</label>
+<input type="radio" name="lang" id="lang_EN"><label for="lang_EN">EN</label>
+<input type="radio" name="lang" id="lang_RU"><label for="lang_RU">RU</label>
+<label for="show_list_of_languages" class="lang_now" id="UA">UA</label>
+<label for="show_list_of_languages" class="lang_now" id="EN">EN</label>
+<label for="show_list_of_languages" class="lang_now" id="RU">RU</label>
+</div>
+</div>
+
+<div id="social">
+<input type="checkbox" id="show_social_logos">
+<label for="show_social_logos" tabindex="0" id="main_social_logo" role="button" aria-label="Відкрити меню поділитися сторінкою"></label>
+<div id="block_of_social_logos">
+<div class="social_logo" tabindex="0" role="button" title="Поділитися сторінкою у Facebook"><img src="Images/facebook.png"></div>
+<div class="social_logo" tabindex="0" role="button" title="Поділитися сторінкою в X/Twitter"><img src="Images/x-social-media-round-icon.webp"></div>
+<div class="social_logo" tabindex="0" role="button" title="Поділитися сторінкою у Telegram"><img src="Images/telegram.png"></div>
+</div>
+</div>
+
+<form>
+<input type="search" placeholder="Пошук">
+<button type="submit" aria-label="Пошук"></button>
+</form>
+</header>
+
+<aside id="side">
+
+<div class="Bookmark bold">Ваші закладки:</div>
+<div class="Bookmark">Закладки відсутні</div>
+<div></div><div></div><hr><div></div><div></div>
+<nav>
+<a href="index.html">Тематичний каталог</a><div></div>
+<a href="List_divarication_colllection.html">Багатотомники</a><div></div>
+<a href="Periodicals.html">Періодичні видання</a><div></div>
+<a href="Periodicals.html">Про бібліотеку</a>
+<div></div><div></div><hr><div></div><div></div>
+</nav>
+
+<input type="radio" name="radio" id="fi" checked><label for="fi" tabindex="0" role="button">Прізвище автора</label><div></div>
+<input type="radio" name="radio" id="se"><label for="se" tabindex="0" role="button">Період народження автора</label><div></div>
+<input type="radio" name="radio" id="th"><label for="th" tabindex="0" role="button">Рік написання роботи</label>
+<div></div>
+<input type="radio" name="radio" id="fo"><label for="fo" tabindex="0" role="button">Жанр худож. літератури</label>
+
+<div id="Letter">
+<a href="#" aria-describedby="fi">А</a><a href="#" aria-describedby="fi">Б</a>
+<a href="#" aria-describedby="fi">В</a><a href="#" aria-describedby="fi">Г</a>
+<a href="#" aria-describedby="fi">Д</a><a href="#" aria-describedby="fi">Е</a>
+<a href="#" aria-describedby="fi">Є</a><a href="#" aria-describedby="fi">Ж</a>
+<a href="#" aria-describedby="fi">З</a><a href="#" aria-describedby="fi">І</a>
+<a href="#" aria-describedby="fi">Й</a><a href="#" aria-describedby="fi">К</a>
+<a href="#" aria-describedby="fi">Л</a><a href="#" aria-describedby="fi">М</a>
+<a href="#" aria-describedby="fi">Н</a><a href="#" aria-describedby="fi">О</a>
+<a href="#" aria-describedby="fi">П</a><a href="#" aria-describedby="fi">Р</a>
+<a href="#" aria-describedby="fi">С</a><a href="Letter_T.html" aria-describedby="fi">Т</a>
+<a href="#" aria-describedby="fi">У</a><a href="#" aria-describedby="fi">Ф</a>
+<a href="#" aria-describedby="fi">Х</a><a href="#" aria-describedby="fi">Ц</a>
+<a href="#" aria-describedby="fi">Ч</a><a href="#" aria-describedby="fi">Ш</a>
+<a href="#" aria-describedby="fi">Щ</a><a href="#" aria-describedby="fi">Ю</a>
+<a href="#" aria-describedby="fi">Я</a>
+</div>
+
+<div id="Birthday">
+<a href="#" aria-describedby="se">До XIX ст.</a>
+<a href="#" aria-describedby="se">Пер. пол. XIX ст.</a>
+<a href="#" aria-describedby="se">Др. пол. XIX ст.</a>
+<a href="#" aria-describedby="se">Пер. пол. XX ст.</a>
+<a href="#" aria-describedby="se">Др. пол. XX ст.</a>
+</div>
+
+<div id="Year">
+<a href="#" aria-describedby="th">1897</a><a href="#" aria-describedby="th">1901</a>
+<a href="#" aria-describedby="th">1926</a><a href="#" aria-describedby="th">1937</a>
+<a href="#" aria-describedby="th">1938</a><a href="#" aria-describedby="th">1940</a>
+<a href="#" aria-describedby="th">1941</a><a href="#" aria-describedby="th">1965</a>
+<a href="#" aria-describedby="th">1967</a><a href="#" aria-describedby="th">1971</a>
+<a href="#" aria-describedby="th">1973</a><a href="#" aria-describedby="th">1977</a>
+<a href="#" aria-describedby="th">1981</a><a href="#" aria-describedby="th">1985</a>
+<a href="#" aria-describedby="th">1986</a><a href="#" aria-describedby="th">1987</a>
+<a href="#" aria-describedby="th">1988</a><a href="#" aria-describedby="th">1991</a>
+<a href="#" aria-describedby="th">2001</a><a href="#" aria-describedby="th">2003</a>
+<a href="#" aria-describedby="th">2004</a><a href="#" aria-describedby="th">2005</a>
+<a href="#" aria-describedby="th">2006</a><a href="#" aria-describedby="th">2007</a>
+<a href="#" aria-describedby="th">2008</a><a href="#" aria-describedby="th">2010</a>
+<a href="#" aria-describedby="th">2011</a><a href="#" aria-describedby="th">2012</a>
+<a href="#" aria-describedby="th">2013</a><a href="#" aria-describedby="th">2014</a>
+<a href="#" aria-describedby="th">2015</a>
+<a href="Year_2016.html" aria-describedby="th">2016</a>
+<a href="#" aria-describedby="th">2017</a><a href="#" aria-describedby="th">2018</a>
+<a href="#" aria-describedby="th">2019</a><a href="#" aria-describedby="th">2022</a>
+</div>
+
+<div id="Genre">
+<a href="#" aria-describedby="fo">Автобіографічний роман</a>
+<a href="#" aria-describedby="fo">Вірш</a><a href="#" aria-describedby="fo">Драма</a>
+<a href="#" aria-describedby="fo">Казка</a><a href="#" aria-describedby="fo">Мемуари</a>
+<a href="#" aria-describedby="fo">Новела</a><a href="#" aria-describedby="fo">Оповідання</a>
+<a href="#" aria-describedby="fo">Повість</a><a href="#" aria-describedby="fo">Поема</a>
+<a href="#" aria-describedby="fo">Роман</a>
+</div>
+
+</aside>
+
+<div id="black"></div>
+
+<main id="content">
+
+<article id="core">
+
+<article id="title_author">
+
+<div id="title">Рей Дуглас Бредбері</div>
+
+<section id="face">
+
+<section id="image_in_left">
+<img src="Images/Artistic/Bredbery_Rey.jpg" alt="Рей Дуглас Бредбері">
+</section>
+
+<section id="exposition">
+<div class="line_of_exposition">
+<div>Дата народження</div><div></div><div>22 серпня 1920</div>
+</div>
+<div class="line_of_exposition">
+<div>Місце народження</div><div></div><div>Вокіґан, Іллінойс, США</div>
+</div>
+<div class="line_of_exposition">
+<div>Дата смерті</div><div></div><div>5 червня 2012</div>
+</div>
+<div class="line_of_exposition">
+<div>Місце смерті</div><div></div><div>Лос-Анджелес, Каліфорнія, США</div>
+</div>
+<div class="line_of_exposition">
+<div>Жанр</div><div></div><div>Наукова фантастика, фентезі, література жахів, психологічна проза</div>
+</div>
+</section>
+
+</section>
+
+<section id="description">
+Американський письменник. Перші літературні досліди відносяться до 12-річного віку, до 20 років склалася тверда впевненість — стати письменником. Через брак грошей на навчання займався самоосвітою: «у 27 років замість університету я закінчив бібліотеку». У тридцять років (1950) популярність Бредбері приносять "Марсіанські хроніки". Через три роки з'являється роман-антиутопія «451 градус за Фаренгейтом», що став найзнаменитішим твором Бредбері. Загалом їм створено понад 800 творів. Остання розповідь була написана та надрукована у 2010. Отримав Пулітцеровську премію, премію «Хього», «О'Генрі», «Балрог», Брема Стокера.
+</section>
+
+</article>
+
+<section id="sort">
+<div>Сортувати за</div>
+</section>
+
+<input type="radio" name="sort" id="surname" checked>
+<label for="surname" id="label_for_surname" tabindex="0" aria-label="Сортувати книги за прізвищем" role="button">Прізвищем</label>
+
+<input type="radio" name="sort" id="date_original" aria-describedby="sort">
+<label for="date_original" id="label_for_date_original" tabindex="0" aria-label="Сортувати книги за датою видання" role="button">Датою видання</label>
+
+<input type="radio" name="sort" id="date_library" aria-describedby="sort">
+<label for="date_library" id="label_for_date_library" tabindex="0" aria-label="Сортувати книги за датою появи в бібліотеці" role="button">Датою появи в бібліотеці</label>
+
+<input type="checkbox" id="reverse">
+<label for="reverse" id="label_for_reverse" tabindex="0" aria-label="Reverse порядку книг" role="button"></label>
+
+<section id="nav_block">
+<div id="nav_text_one">Роботи автора (2)</div>
+</section>
+
+<article id="amount_of_blocks">
+
+  <!--Surname 1/2--------------------------------------------------------------->
+<section class="block">
+
+<section class="top_information">
+<div class="pointer"><a href="English_literature.html">Literature in English / Переклади з англійської</a></div>
+<div class="date">Додано: 2023-10-30</div>
+</section>
+<a href="#" class="big_matter">
+<section class="title_in_small">
+<span class="italic">Бредбері Рей</span><br>451° по Фаренгейту. Рассказы
+</section>
+<section class="matter">
+<section class="book_in_left"><img src="Images/Artistic/bradbury_451_gradus_po_farengejtu_rasskazy_1965.jpg" alt="Бредбері Рей. 451° по Фаренгейту. Рассказы">
+</section>
+<section class="text_in_right">
+<div class="name"><span class="italic">Бредбері Рей</span><br>451° по Фаренгейту. Рассказы</div>
+<div class="big_description">
+<div class="genre_and_year">
+<div>Жанр: роман, оповідання</div>
+<div>Рік видання: 1965</div>
+</div>
+<div class="description">
+В повести «451° по Фаренгейту» Брэдбери, как бы спроецировав в будущее современные США, показал мир, лишенный творчества, созидания, его технику, приспособленную только для того, чтобы набивать желудки и оболванивать умы, чтобы наживаться на голоде миллионов и угрожать атомной смертью миллиардам.
+Это мир, в котором пожарники сжигают книги, ибо самое опасное для существования этого мира - свободное чувство и свободная мысль...
+</div>
+</div>
+</section>
+</section>
+</a>
+
+<section class="bottom_information">
+<div class="artistic">Художня література</div>
+<div class="Author"><a href="Rey_Bredbery.html">Сторінка автора</a></div>
+</section>
+
+</section>
+
+  <!--Surname 2/2--------------------------------------------------------------->
+<section class="block">
+
+<section class="top_information">
+<div class="pointer"><a href="English_literature.html">Literature in English / Переклади з англійської</a><a href="Children's_literature.html">Дитяча література</a></div>
+<div class="date">Додано: 2023-11-09</div>
+</section>
+<a href="#" class="big_matter">
+<section class="title_in_small">
+<span class="italic">Бредбері Рей</span><br>Р — значит ракета
+</section>
+<section class="matter">
+<section class="book_in_left"><img src="Images/Artistic/bredberi_r_znachit_raketa_1973.jpg" alt="Бредбері Рей. Р — значит ракета">
+</section>
+<section class="text_in_right">
+<div class="name"><span class="italic">Бредбері Рей</span><br>Р — значит ракета</div>
+<div class="big_description">
+<div class="genre_and_year">
+<div>Жанр: оповідання</div>
+<div>Рік видання: 1973</div>
+</div>
+<div class="description">
+Сборник фантастических рассказов крупнейшего американского фантаста Рэя Брэдбери.
+</div>
+</div>
+</section>
+</section>
+</a>
+
+<section class="bottom_information">
+<div class="artistic">Художня література</div>
+<div class="Author"><a href="Rey_Bredbery.html">Сторінка автора</a></div>
+</section>
+
+</section>
+
+</article>
+
+</article>
+
+</main>
+
+<footer>
+<a href="#">Вихідні дані та декларація про захист даних</a>
+<div>© ImEntwickeln, 2023</div>
+<div>imentwickeln@gmail.com</div>
+<div id="social_footer">
+<div id="we">Ми також є в:</div>
+<div id="block_of_social_logos_footer">
+<div class="social_logo_footer" tabindex="0" role="button" title="Наша сторінка у Facebook"><img src="Images/facebook_square.png"></div>
+<div class="social_logo_footer" tabindex="0" role="button" title="Наша сторінка в X/Twitter"><img src="Images/x-twitter.png"></div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
