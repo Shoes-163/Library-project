@@ -1,0 +1,33 @@
+#main_about {
+	background-color: white;
+	max-width: 1000px;
+	margin: 0px auto;
+	border-radius: 5px;
+	padding: 10px 0px;
+}
+#main_about > * {
+	margin: 0px 10px;
+}
+#main_about a {
+	color: #EA0003;
+	text-decoration: none;
+}
+#main_about a:hover {
+	text-decoration: underline;
+}
+#main_about a:active {
+	color: red;
+}
+
+h1, h2 {
+	text-align: center;
+	line-height: 2;
+}
+p, ul {
+	text-align: justify;
+	font-size: 18px;
+}
+li {
+	margin-left: 20px;
+	line-height: 1.5;
+}

@@ -48,7 +48,7 @@ header > form {
 }
 #side_in_small:checked ~ #label_for_side,
 #search_in_small:checked ~ #label_for_search {
-	z-index: 3;
+	z-index: 4;
 }
 
 #side {
@@ -61,7 +61,7 @@ header > form {
 #content {
 	margin-left: 0px;
 }
-#core {
+#core, #main_about {
 	max-width: 766px;
 }
 
