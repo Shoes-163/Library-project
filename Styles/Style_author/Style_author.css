@@ -9,7 +9,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	/*background-color: mediumslateblue;*/
 	margin-top: 5px;
 }
 .block_of_author {
@@ -18,11 +17,7 @@
 	background-color: white;
 	border-radius: 5px;
 }
-.pointer_of_author {
-	/*background-color: palegoldenrod;*/
-}
 .pointer_of_author > a {
-	/*background-color: seashell;*/
 	color: #EA0003;
 	margin-left: 5px;
 	font-size: 14px;
@@ -37,7 +32,6 @@
 .matter_of_author {
 	display: flex;
 	align-items: center;
-	/*background-color: palevioletred;*/
 	color: black;
 	text-decoration: none;
 	margin: 5px auto;
@@ -49,7 +43,6 @@
 .portrait_in_left {
 	width: 25%;
 	height: 100px;
-	/*background-color: burlywood;*/
 	position: relative;
 }
 .portrait_in_left > img {
@@ -62,7 +55,6 @@
 	transition: border-right 0.2s ease-out;
 }
 .description_of_author_in_right {
-	/*background-color: darkkhaki;*/
 	width: 75%;
 	display: flex;
 	flex-direction: column;
@@ -73,9 +65,7 @@
 }
 .name_of_author_in_right {
 	font-size: 22px;
-	/*background-color: greenyellow;*/
 }
 .years_of_author_in_right {
 	font-size: 18px;
-	/*background-color: lightcyan;*/
 }

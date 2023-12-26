@@ -7,7 +7,6 @@
 }
 #face {
 	display: flex;
-	/*background-color: seashell;*/
 	align-items: center;
 	margin: 12px 10px;
 	flex-wrap: wrap;
@@ -18,7 +17,6 @@
 #image_in_left {
 	width: 25%;
 	height: 300px;
-	/*background-color: burlywood;*/
 	position: relative;
 }
 #collection #image_in_left, .images_in_left {
@@ -40,18 +38,12 @@
 	flex-direction: column;
 	align-items: center;
 	width: 75%;
-	/*background-color: lawngreen;*/
 }
 .line_of_exposition {
-	/*font: normal normal 400 20px/1.5 "Open Sans";*/
 	font-size: 16px;
 	line-height: 2;
-	/*margin: auto;*/
 	width: 95%;
-	/*display: flex;*/
 	display: table;
-	/*justify-content: center;*/
-	/*background-color: powderblue;*/
 }
 .line_of_exposition:nth-child(even) {
 	background-color: #E0E0E0;
@@ -61,26 +53,16 @@
 	vertical-align: middle;
 }
 .line_of_exposition > div:first-of-type {
-	/*background-color: lightsalmon;*/
-	/*margin-right: 5%;*/
 	width: 25%;
 }
-/*.line_of_exposition > div:empty {
-	display: table-cell;
-	width: 5%;
-}*/
 .line_of_exposition > div:last-of-type {
-	/*background-color: palegoldenrod;*/
 	width: 70%;
-	/*margin-left: 5%;*/
 }
 
 #description {
-	/*font: normal normal 400 20px/1.3 "Open Sans";*/
 	font-size: 16px;
 	text-align: justify;
 	margin: 0px 10px;
-	/*background-color: moccasin;*/
 }
 
 #button_of_dream {
@@ -89,7 +71,6 @@
 	width: 500px;
 	height: 40px;
 	background: linear-gradient(#EFEFEF, #C1C1C1);
-	/*font: normal normal 400 20px/2 "Open Sans";*/
 	font-family: 'Inter', sans-serif;
 	font-size: 20px;
 	line-height: 2;

@@ -133,7 +133,6 @@
 #two_blocks {
 	flex-direction: column;
 	justify-content: space-between;
-	/*margin: 2px 10px -10px 10px;*/
 }
 #two_blocks > a {
 	margin: 10px 0px;
